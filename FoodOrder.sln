@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrder.AppHost", "FoodOrder.AppHost\FoodOrder.AppHost.csproj", "{BB244B34-07F3-424C-B7DA-1DD20600C63D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrder.ServiceDefaults", "FoodOrder.ServiceDefaults\FoodOrder.ServiceDefaults.csproj", "{6E2F652E-0EC6-4D8F-A1D0-17C2C130EEC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrder.ApiService", "FoodOrder.ApiService\FoodOrder.ApiService.csproj", "{E9FE5DB0-1AE3-468D-BE2C-EA111E306A9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodOrder.Web", "FoodOrder.Web\FoodOrder.Web.csproj", "{64D2F78C-C43E-450C-9254-E5C5E7EAD228}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{8F39EAFB-8FFD-47D9-9D1B-8FC3B97461A7}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB244B34-07F3-424C-B7DA-1DD20600C63D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB244B34-07F3-424C-B7DA-1DD20600C63D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB244B34-07F3-424C-B7DA-1DD20600C63D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB244B34-07F3-424C-B7DA-1DD20600C63D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2F652E-0EC6-4D8F-A1D0-17C2C130EEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2F652E-0EC6-4D8F-A1D0-17C2C130EEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2F652E-0EC6-4D8F-A1D0-17C2C130EEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2F652E-0EC6-4D8F-A1D0-17C2C130EEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9FE5DB0-1AE3-468D-BE2C-EA111E306A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9FE5DB0-1AE3-468D-BE2C-EA111E306A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9FE5DB0-1AE3-468D-BE2C-EA111E306A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9FE5DB0-1AE3-468D-BE2C-EA111E306A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D2F78C-C43E-450C-9254-E5C5E7EAD228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D2F78C-C43E-450C-9254-E5C5E7EAD228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D2F78C-C43E-450C-9254-E5C5E7EAD228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D2F78C-C43E-450C-9254-E5C5E7EAD228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12677262-2245-4542-BA53-07C4A46714FE}
+	EndGlobalSection
+EndGlobal
